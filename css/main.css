@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}.navbar{
+	background-color: #298C85;
+}
+.navbar{
+	padding: 0;
+}
+nav h1{
+	position: absolute;
+	text-indent: -9999999px;
+}
+nav a{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #FFFFFF;
+}
+.navbar-brand{
+	margin-right: 53px;
+}
+form{
+	height: 32.43px;
+	margin-right: 20px;
+}
+.form-inline .form-control{
+	width: 362px;
+	height: 32.43px;
+	background: none;
+
+	border: 1px solid #E1F3F1;
+	box-sizing: border-box;
+	border-radius: 40px;
+	position: relative;
+}
+.btn{
+	height: 100%;
+	position: relative;
+	left: -45px;
+	top: -3px;
+	border-radius: 40px;
+	background: none;
+}
+.navbar-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-contacts{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.nav-contacts:before{
+	content: '';
+	width: 34px;
+	height: 36px;
+	background: url(../img/telephone.png) no-repeat;
+	position: absolute;
+	left: -30px;
+}
+.nav-link{
+	padding: 0;
+	margin-bottom: 4px;
+}
+.profile-links{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 50px;
+}
+.profile-links li{
+	height: 100%;
+	width: 40px;
+}
+.profile{
+	width: 29px;
+	height: 28px;
+	background: url(../img/user24px.png) no-repeat;
+}
+.change{
+	width: 25px;
+	height: 25px;
+	background: url(../img/change.png) no-repeat;
+}
+.like{
+	width: 25px;
+	height: 24px;
+	background: url(../img/like.png) no-repeat;
+}
+.basket{
+	width: 25px;
+	height: 24px;
+	background: url(../img/basket.png) no-repeat;
+}
+.language{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 11px;
+	height: 26px;
+	border-left: 1px solid #E1F3F1;
+}
+
+
+
+
+
+
